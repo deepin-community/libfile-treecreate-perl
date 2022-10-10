@@ -1,0 +1,12 @@
+libfile-treecreate-perl (0.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add Breaks/Replaces on old libfile-find-object-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 29 Sep 2021 14:39:11 +0200
+
+libfile-treecreate-perl (0.0.1-1) unstable; urgency=low
+
+  * Initial release (closes: #993667)
+
+ -- Florian Schlichting <fsfs@debian.org>  Sat, 04 Sep 2021 21:55:20 +0800

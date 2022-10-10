@@ -1,0 +1,27 @@
+Source: libfile-treecreate-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               libmodule-build-perl,
+               perl
+Build-Depends-Indep: libtest-simple-perl <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libfile-treecreate-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libfile-treecreate-perl.git
+Homepage: https://metacpan.org/release/File-TreeCreate
+Rules-Requires-Root: no
+
+Package: libfile-treecreate-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Breaks: libfile-find-object-perl (<< 0.3.6)
+Replaces: libfile-find-object-perl (<< 0.3.6)
+Description: Perl module to recursively create and populate a directory tree
+ File::TreeCreate is a Perl module to quickly and easily create a directory
+ tree and populate it with simple text files.  It was extracted from several
+ near-identical copies used in the tests of some of the author's CPAN
+ distributions.
